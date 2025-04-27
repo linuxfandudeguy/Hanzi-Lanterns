@@ -1,8 +1,15 @@
 <div align="center">
-  <img alt="Astro Citrus logo" src="/public/seal.jpg" width="70" />
+  <img alt="Astro Citrus logo" src="/public/images/seal.jpg" width="70" />
 </div>
 <h1 align="center">
-  Astro Citrus
+Hanzi Lanterns
+<ruby>
+  漢<rt>hàn</rt>
+  字<rt>zì</rt>
+  燈<rt>dēng</rt>
+  籠<rt>lóng</rt>
+</ruby>
+
 </h1>
 
 Astro Citrus is a simple opinionated starter built with the Astro framework. Use it to create an easy-to-use blog or website.
