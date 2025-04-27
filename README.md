@@ -28,3 +28,19 @@ I try my best to take my information from reliable resources, such as [Chineasy]
 ## License
 
 MIT
+
+
+
+## test
+
+```mermaid
+graph TD
+  A[HSK Level 1] -->|Passing Score: 120/200| B[HSK Level 2]
+  B -->|Passing Score: 120/200| C[HSK Level 3]
+  C -->|Passing Score: 180/300| D[HSK Level 4]
+  D -->|Passing Score: 180/300| E[HSK Level 5]
+  E -->|Passing Score: 180/300| F[HSK Level 6]
+  F -->|Passing Score: 180/300| G[HSK Level 7]
+  G -->|Passing Score: 180/300| H[HSK Level 8]
+  H -->|Passing Score: 180/300| I[HSK Level 9]
+```
