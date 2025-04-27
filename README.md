@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Astro Citrus logo" src="https://github.com/ArtemKutsan/astro-citrus/blob/main/src/assets/images/logo.svg" width="70" />
+  <img alt="Astro Citrus logo" src="/public/seal.jpg" width="70" />
 </div>
 <h1 align="center">
   Astro Citrus
