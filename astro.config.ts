@@ -26,7 +26,7 @@ import {
 // https://astro.build/config
 export default defineConfig({
   image: {
-    domains: ["webmention.io"],
+    domains: ["https://www.chineasy.com/"],
   },
   integrations: [
     icon(),
@@ -46,7 +46,7 @@ export default defineConfig({
       /**
        * optional
        **/
-      // short_name: "Astro_Citrus",
+       short_name: "Hanzi Lanterns",
       description: siteConfig.description,
       lang: siteConfig.lang,
       icon: "public/images/seal.jpg", // the source for generating favicon & icons
