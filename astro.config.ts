@@ -38,7 +38,7 @@ export default defineConfig({
       short_name: "Hanzi Lanterns",
       description: siteConfig.description,
       lang: siteConfig.lang,
-      icon: "/seal.jpg",
+      icon: "/24156.svg",
       icons: [
         {
           src: "icons/apple-touch-icon.png",
