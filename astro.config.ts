@@ -5,23 +5,19 @@ import tailwind from "@astrojs/tailwind";
 import icon from "astro-icon";
 import robotsTxt from "astro-robots-txt";
 import webmanifest from "astro-webmanifest";
-import { defineConfig, envField } from "astro/config";
+import { defineConfig } from "astro/config";
 import { siteConfig } from "./src/site.config";
 
 // Remark plugins
-import remarkDirective from "remark-directive"; /* handle ::: directives as nodes */
-import { remarkAdmonitions } from "./src/plugins/remark-admonitions"; /* add admonitions */
+import remarkDirective from "remark-directive";
+import { remarkAdmonitions } from "./src/plugins/remark-admonitions";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 
 // Rehype plugins
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeUnwrapImages from "rehype-unwrap-images";
-
 import rehypePrettyCode from "rehype-pretty-code";
-import {
-  transformerMetaHighlight,
-  transformerNotationDiff,
-} from "@shikijs/transformers";
+import { transformerMetaHighlight, transformerNotationDiff } from "@shikijs/transformers";
 
 // https://astro.build/config
 export default defineConfig({
@@ -38,21 +34,14 @@ export default defineConfig({
     mdx(),
     robotsTxt(),
     webmanifest({
-      // See: https://github.com/alextim/astro-lib/blob/main/packages/astro-webmanifest/README.md
-      /**
-       * required
-       **/
       name: siteConfig.title,
-      /**
-       * optional
-       **/
-       short_name: "Hanzi Lanterns",
+      short_name: "Hanzi Lanterns",
       description: siteConfig.description,
       lang: siteConfig.lang,
-      icon: "public/images/seal.jpg", // the source for generating favicon & icons
+      icon: "public/images/seal.jpg",
       icons: [
         {
-          src: "icons/apple-touch-icon.png", // used in src/components/BaseHead.astro L:26
+          src: "icons/apple-touch-icon.png",
           sizes: "180x180",
           type: "image/png",
         },
@@ -80,7 +69,6 @@ export default defineConfig({
   ],
   markdown: {
     syntaxHighlight: false,
-
     remarkPlugins: [remarkReadingTime, remarkDirective, remarkAdmonitions],
     remarkRehype: {
       footnoteLabelProperties: {
@@ -88,7 +76,6 @@ export default defineConfig({
       },
       footnoteBackContent: "⤴",
     },
-
     rehypePlugins: [
       [
         rehypeExternalLinks,
@@ -97,63 +84,39 @@ export default defineConfig({
           target: "_blank",
         },
       ],
-
       [
         rehypePrettyCode,
         {
           theme: {
-            light: "rose-pine-dawn", // after changing the theme, the server needs to be restarted
-            dark: "rose-pine", // after changing the theme, the server needs to be restarted
+            light: "rose-pine-dawn",
+            dark: "rose-pine",
           },
-
           transformers: [transformerNotationDiff(), transformerMetaHighlight()],
         },
       ],
       rehypeUnwrapImages,
     ],
   },
-  // https://docs.astro.build/en/guides/prefetch/
   prefetch: true,
-  // ! Please remember to replace the following site property with your own domain
   site: "https://hanzilanterns.netlify.app/",
   vite: {
     build: {
-      sourcemap: true, // Source maps generation
+      sourcemap: true,
     },
     optimizeDeps: {
       exclude: ["@resvg/resvg-js"],
     },
     plugins: [rawFonts([".ttf", ".woff"])],
   },
-  //env: {
-    //schema: {
-      //WEBMENTION_API_KEY: envField.string({
-      //  context: "server",
-       // access: "secret",
-      //  optional: true,
-     // }),
-     // WEBMENTION_URL: envField.string({
-     //   context: "client",
-      //  access: "public",
-      //  optional: true,
-      });
-     // WEBMENTION_PINGBACK: envField.string({
-      //  context: "client",
-      //  access: "public",
-      //  optional: true,
-      }),
-    },
-  },
   server: {
-    // port: 1234,
     host: true,
   },
 });
 
-function rawFonts(ext: string[]) {
+// --- Vite Plugin ---
+function rawFonts(ext) {
   return {
     name: "vite-plugin-raw-fonts",
-    // @ts-expect-error:next-line
     transform(_, id) {
       if (ext.some((e) => id.endsWith(e))) {
         const buffer = fs.readFileSync(id);
