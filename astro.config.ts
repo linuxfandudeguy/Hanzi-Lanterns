@@ -136,7 +136,7 @@ export default defineConfig({
      //   context: "client",
       //  access: "public",
       //  optional: true,
-      }),
+      });
      // WEBMENTION_PINGBACK: envField.string({
       //  context: "client",
       //  access: "public",
