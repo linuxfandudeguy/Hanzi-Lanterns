@@ -49,7 +49,7 @@ export default defineConfig({
       // short_name: "Astro_Citrus",
       description: siteConfig.description,
       lang: siteConfig.lang,
-      icon: "public/icon.svg", // the source for generating favicon & icons
+      icon: "public/images/seal.jpg", // the source for generating favicon & icons
       icons: [
         {
           src: "icons/apple-touch-icon.png", // used in src/components/BaseHead.astro L:26
@@ -115,7 +115,7 @@ export default defineConfig({
   // https://docs.astro.build/en/guides/prefetch/
   prefetch: true,
   // ! Please remember to replace the following site property with your own domain
-  site: "http://astrocitrus.artemkutsan.pp.ua/",
+  site: "https://hanzilanterns.netlify.app/",
   vite: {
     build: {
       sourcemap: true, // Source maps generation
@@ -125,22 +125,22 @@ export default defineConfig({
     },
     plugins: [rawFonts([".ttf", ".woff"])],
   },
-  env: {
-    schema: {
-      WEBMENTION_API_KEY: envField.string({
-        context: "server",
-        access: "secret",
-        optional: true,
+  //env: {
+    //schema: {
+      //WEBMENTION_API_KEY: envField.string({
+      //  context: "server",
+       // access: "secret",
+      //  optional: true,
+     // }),
+     // WEBMENTION_URL: envField.string({
+     //   context: "client",
+      //  access: "public",
+      //  optional: true,
       }),
-      WEBMENTION_URL: envField.string({
-        context: "client",
-        access: "public",
-        optional: true,
-      }),
-      WEBMENTION_PINGBACK: envField.string({
-        context: "client",
-        access: "public",
-        optional: true,
+     // WEBMENTION_PINGBACK: envField.string({
+      //  context: "client",
+      //  access: "public",
+      //  optional: true,
       }),
     },
   },
