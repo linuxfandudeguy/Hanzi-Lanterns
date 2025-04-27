@@ -6,7 +6,7 @@ updateDate: "4-27-25"
 
 Chinese is the official language of the People's Republic of China, The Republic of China (Taiwan) and all of the autonomous regions governed by China (Macau and Hong Kong).
 
-When the Communist party took over in the 1950s, chinese would end up being simplified in order to promote mass literacy, resulting in this: (mǎ is used as a example)
+When the Communist party took over in the 1950s, chinese would end up being simplified in order to promote mass literacy by simplifying the characters and making them easier to write and read, resulting in this: (mǎ is used as a example)
 
 <div style="font-family: sans-serif; text-align: center; margin-top: 2rem;">
   <ruby style="font-size: 3rem;">
