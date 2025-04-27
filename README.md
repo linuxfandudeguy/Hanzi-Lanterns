@@ -11,6 +11,7 @@ Hanzi Lanterns
 </ruby>
 
 </h1>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6563c5f-05ed-4f2f-9f23-1bae68576645/deploy-status)](https://app.netlify.com/sites/hanzilanterns/deploys)
 
 Hanzi Lanterns is a blog about Chinese culture, characters and history.
 
