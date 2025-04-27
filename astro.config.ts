@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 import icon from "astro-icon";
 import robotsTxt from "astro-robots-txt";
 import webmanifest from "astro-webmanifest";
-import { defineConfig } from "astro/config";
+import { defineConfig, envField } from "astro/config";
 import { siteConfig } from "./src/site.config";
 
 // Remark plugins
@@ -107,6 +107,25 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"],
     },
     plugins: [rawFonts([".ttf", ".woff"])],
+  },
+  env: {
+    schema: {
+      WEBMENTION_API_KEY: envField.string({
+        context: "server",
+        access: "secret",
+        optional: true,
+      }),
+      WEBMENTION_URL: envField.string({
+        context: "client",
+        access: "public",
+        optional: true,
+      }),
+      WEBMENTION_PINGBACK: envField.string({
+        context: "client",
+        access: "public",
+        optional: true,
+      }),
+    },
   },
   server: {
     host: true,
