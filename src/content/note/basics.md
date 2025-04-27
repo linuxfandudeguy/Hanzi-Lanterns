@@ -3,7 +3,6 @@ title: Basics of Chinese
 publishDate: "2025-04-27T21:08:46Z"
 updateDate: "2025-04-27T21:08:46Z"
 ---
-# Basics
 Chinese is the official language of the People's Republic of China, The Republic of China (Taiwan) and all of the autonomous regions governed by China (Macau and Hong Kong).
 
 ##  Simplified and Traditional characters
@@ -56,6 +55,8 @@ This blog mainly teaches <ruby style="font-size: 2rem;">
   <rt>tǐ</rt>
 </ruby> characters look more like what they are meant to represent, for example 馬 looks more like a horse than 马.
 
+It will sometimes teach simplified.
+
 
 # Tones
 
@@ -75,7 +76,7 @@ These tones are:
    - Falls, then rises again.
    - Example: **mǎ** (马 — horse)
 
-4. **Fourth Tone (Falling Tone)**  
+4. **Fourth Tone (Falling 5.)**  
    - Sharp and falling  
    - Example: **mà** (骂 — scold)
 
@@ -87,4 +88,21 @@ These tones are:
 
 ## Writing
 
-**placeholder**
+![8 Strokes of 永](/images/8_strokes_of_%E6%B0%B8-zh.svg.png)
+![250px-永-order](/images/250px-%E6%B0%B8-order.gif)
+
+Writing is taught via 永字八法 (The Eight Principles Of Yong)
+
+Because yong (永) uses all of the eight most common strokes.
+
+1. 点; diǎn; 'dot'
+2. 橫; héng; 'horizontal'
+3. 豎; shù; 'erect'
+4. 鈎; gōu; 'hook'
+5. 提; tí; 'raise'
+6. 彎; 弯; wān; 'curve'
+7. 撇; piě; 'throw away'
+8. 捺; nà; 'press firmly'
+
+----------------------
+Have fun learning chinese!
