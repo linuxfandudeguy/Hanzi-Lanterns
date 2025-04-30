@@ -3,7 +3,7 @@ title: "仁 (Rén): A Deep Dive into the Confucian Ideal of Benevolence"
 description: "First post on the Hanzi Lanterns Blog!"
 publishDate: "29 Apr 2025"
 tags: ["hanzi", "confucianism", "confucius", "culture"]
-updatedDate: 29 Apr 2025
+updatedDate: 30 Apr 2025
 ---
 
 仁 (Pinyin: Rén) is the highest virtue in Confucianism. The character translates to 'benevolence' or 'co-humanity' and in Confucianism is the general Foundation for Behavior. [^1]
