@@ -7,7 +7,7 @@ updatedDate: 30 Apr 2025
 ---
 
 
-# <ruby>仁 <rt>rén</rt></ruby>
+# About <ruby>仁 <rt>rén</rt></ruby>
 
 <ruby>
  仁 <rt>rén</rt>
@@ -32,7 +32,7 @@ In Confucian ethics, <ruby>
  仁 <rt>rén</rt>
 </ruby> underpins personal morality and the broader social order.
 
-## Hanzi Break Down
+## <ruby>汉字<rt>hànzì</rt></ruby> Break Down
 
 ---
 
