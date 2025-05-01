@@ -3,7 +3,7 @@ title: "仁 (Rén): A Deep Dive into the Confucian Ideal of Benevolence"
 description: "First post on the Hanzi Lanterns Blog!"
 publishDate: "29 Apr 2025"
 tags: ["hanzi", "confucianism", "confucius", "culture"]
-updatedDate: 30 Apr 2025
+updatedDate: 1 May 2025
 ---
 
 
