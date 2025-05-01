@@ -26,6 +26,8 @@ In Confucian ethics, <ruby>仁<rt>rén</rt></ruby> underpins personal morality a
 
 The character  <ruby>仁<rt>rén</rt></ruby> is a combination of the compound form for person (亻) and character for two (二).
 
+This composition symbolizes the relationship between two people—emphasizing empathy, connection, and mutual respect.
+
 ---
 
 [^1]: *Wikipedia*, *Ren (philosophy)*, [en.wikipedia.org](https://en.wikipedia.org/wiki/Ren_(philosophy))  
