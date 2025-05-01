@@ -14,28 +14,17 @@ updatedDate: 30 Apr 2025
 </ruby> is a highly valued virtue in Confuciusism that has been influencing the philosophy for centuries.
 
 ## Explaining
-<ruby>
- 仁 <rt>rén</rt>
-</ruby> is the highest virtue in Confucianism. The character translates to 'benevolence' or 'co-humanity' and in Confucianism is the general Foundation for Behavior. [^1]
-In Confucian ethics, <ruby>
- 仁 <rt>rén</rt>
-</ruby> underpins personal morality and the broader social order. It is the basis of all other virtues: respect, righteousness, sincerity, etc. Confucius taught that one practices <ruby>
- 仁 <rt>rén</rt>
-</ruby> initially at home through <ruby>
- 孝 <rt>xiào</rt>
-</ruby> (filial piety) and then extends it outward: love of parents and family expands to love of society and humanity​.[^2]
+<ruby>仁<rt>rén</rt></ruby> is the highest virtue in Confucianism. The character translates to 'benevolence' or 'co-humanity' and in Confucianism is the general foundation for behavior.[^1]
 
-Yan Hui, one of the Four Sages, once asked his master to describe the rules of <ruby>
- 仁 <rt>rén</rt>
-</ruby>. Confucius replied, "One should see nothing improper, hear nothing improper, say nothing improper, do nothing improper."
-In Confucian ethics, <ruby>
- 仁 <rt>rén</rt>
-</ruby> underpins personal morality and the broader social order.
+In Confucian ethics, <ruby>仁<rt>rén</rt></ruby> underpins personal morality and the broader social order. It is the basis of all other virtues: respect, righteousness, sincerity, etc. Confucius taught that one practices <ruby>仁<rt>rén</rt></ruby> initially at home through <ruby>孝<rt>xiào</rt></ruby> (filial piety) and then extends it outward: love of parents and family expands to love of society and humanity.[^2]
+
+Yan Hui, one of the Four Sages, once asked his master to describe the rules of <ruby>仁<rt>rén</rt></ruby>. Confucius replied, "One should see nothing improper, hear nothing improper, say nothing improper, do nothing improper."
+
+In Confucian ethics, <ruby>仁<rt>rén</rt></ruby> underpins personal morality and the broader social order.
 
 ## <ruby>汉字<rt>hànzì</rt></ruby> Break Down
 
 ---
 
-[^1]: *Wikipedia*, *Ren (philosophy)*, [en.wikipedia.org](https://en.wikipedia.org%2Fwiki%2FRen_%28philosophy%29)
-[^2]:  *Natural Languages Resources Platform*, *Shuyu_ID 2133*,  [nlrp.chinesethought.cn](https://nlrp.chinesethought.cn/shuyu_show.aspx?shuyu_id=2133)
-
+[^1]: *Wikipedia*, *Ren (philosophy)*, [en.wikipedia.org](https://en.wikipedia.org/wiki/Ren_(philosophy))  
+[^2]: *Natural Languages Resources Platform*, *Shuyu_ID 2133*, [nlrp.chinesethought.cn](https://nlrp.chinesethought.cn/shuyu_show.aspx?shuyu_id=2133)
