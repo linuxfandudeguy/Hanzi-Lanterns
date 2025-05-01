@@ -23,7 +23,7 @@ Yan Hui, one of the Four Sages, once asked his master to describe the rules of <
 In Confucian ethics, <ruby>仁<rt>rén</rt></ruby> underpins personal morality and the broader social order.
 
 ## <ruby>汉字<rt>hànzì</rt></ruby> Break Down
-
+The character  <ruby>仁<rt>rén</rt></ruby> is a combination of the compound form for person (亻) and character for two (二).
 ---
 
 [^1]: *Wikipedia*, *Ren (philosophy)*, [en.wikipedia.org](https://en.wikipedia.org/wiki/Ren_(philosophy))  
